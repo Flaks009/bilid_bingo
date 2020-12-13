@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bingo.css" media="screen, print"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <title>Bingo</title>
+</head>
+<body>
+    <div class ="main">
+    <div class="header">
+        <table class="header-table">
+            <th>
+                <td>B</td>
+                <td>I</td>
+                <td>L</td>
+                <td>I</td>
+                <td>D</td>
+            </th>
+        </table>
+    </div>
+    <div class="table">
+    <table border="1" class="dataframe">
+  <tbody>
+    <tr>
+      <td>Tem que acabar o gamer</td>
+      <td>Sushi se expressa sem emoção</td>
+      <td>André diz que vai morrer</td>
+      <td>Nintendista financia qualquer coisa</td>
+      <td>Alguém caiu da chamada</td>
+    </tr>
+    <tr>
+      <td>Nova geração / geração passada</td>
+      <td>Nintendo toma decisão duvidosa</td>
+      <td>André corta a live</td>
+      <td>Ubisoft sendo FDP</td>
+      <td>Soberba da Sony</td>
+    </tr>
+    <tr>
+      <td>Afirmação em tom de pergunta</td>
+      <td>Lootbox</td>
+      <td><img src="http://drive.google.com/uc?export=view&id=1-xh60-roPtxJzzfWrQSvQOAetypSas0s" id="img-center"></td>
+      <td>Convidado</td>
+      <td>Fim da mídia física</td>
+    </tr>
+    <tr>
+      <td>Adiamento</td>
+      <td>Rumor de Silent Hill</td>
+      <td>Dona Sonya</td>
+      <td>Tengu plot twist: “MAS”</td>
+      <td>Tengu apenas observa</td>
+    </tr>
+    <tr>
+      <td>Autodepreciação</td>
+      <td>Epic tentando ser legalzona</td>
+      <td>A piada do início completa a volta</td>
+      <td>Ex-jogabilideiro</td>
+      <td>Microsoft foca em serviços</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+    <div id="download">
+        <button onclick="download()" class="button" id="button-download">Download</button>
+    </div>
+    </div>
+    <script>
+        function download(){
+            button = document.getElementById("button-download")
+            button.style.display = "none";
+            window.print();
+            button.style.display = "block";
+
+        }
+    </script>
+</body>
+</html>

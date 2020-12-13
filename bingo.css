@@ -1,0 +1,97 @@
+@page { margin: 0; }
+
+.table {
+    width: 600px;
+    height: 800px;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    background-image: url("http://drive.google.com/uc?export=view&id=1Ng9Pe3-nByOnVX54DTs3pAKaxmYgLO54");
+}
+
+
+.dataframe{
+    width: 600px;
+    height: 800px;
+    table-layout: fixed;
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+td 
+{
+    text-align: center; 
+    vertical-align: middle;
+    color: white;
+    width: 20%;
+    height: 20%;
+}
+
+.title{
+    text-align: center;
+}
+
+#img-center{
+    height: 90px;
+}
+
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: center;
+    background-image: url("http://drive.google.com/uc?export=view&id=1Ng9Pe3-nByOnVX54DTs3pAKaxmYgLO54");
+    color: white;
+    border: 1px solid white;
+}
+
+.header h1{
+    margin: 0;
+}
+
+.header-table{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.button {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color:#599bb3;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+}
+.button:hover {
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color:#408c99;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+
+#download {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
